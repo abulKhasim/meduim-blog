@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://medium-blog.abulkhasim999.workers.dev";
