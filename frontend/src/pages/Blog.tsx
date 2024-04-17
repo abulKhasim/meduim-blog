@@ -1,4 +1,5 @@
 import { FullBlog } from "../components/FullBlog";
+import { SingleBlogSkeleton } from "../components/SingleBlogSkeleton";
 import { useBlog } from "../hooks"
 import { useParams } from "react-router-dom";
 
@@ -11,7 +12,7 @@ const Blog = () => {
 
   if(loading) {
     return <div>
-      laoding...
+      <SingleBlogSkeleton/>
     </div>
   }
 
